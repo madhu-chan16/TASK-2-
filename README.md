@@ -1,23 +1,36 @@
-**# 🌸 Deep Learning Image Classifier using TensorFlow (TF Flowers)
+# 🌸 Deep Learning Image Classifier using TensorFlow
 
-## 📌 Project Overview
-This project is part of my internship at **CodTech IT Solutions**. It involves developing a **deep learning model** using **TensorFlow** to classify images of flowers into 5 categories using the `tf_flowers` dataset.
+## 📌 Internship Task 2 – CodTech IT Solutions
 
-## 🧠 Model Details
-- Framework: TensorFlow (Keras API)
-- Dataset: TF Flowers (5 flower categories)
-- Image Size: 128x128
-- Layers: 2 Conv2D + MaxPooling, Flatten, Dense
-- Optimizer: Adam
-- Loss: Sparse Categorical Crossentropy
-- Accuracy Achieved: *(Insert your best accuracy here, e.g., 85%)*
-- ## 📊 Visualizations
+This project is part of my internship at **CodTech IT Solutions**. The objective was to implement a deep learning-based image classifier using **TensorFlow** on the **TF Flowers dataset**.
 
-### Model Accuracy
-![Accuracy Graph](accuracy_graph.png)
+---
+
+## 🧠 Project Summary
+
+- **Framework**: TensorFlow (Keras API)
+- **Dataset**: TF Flowers (from `tensorflow_datasets`)
+- **Model**: Convolutional Neural Network (CNN)
+- **Input Size**: 128x128x3
+- **Classes**: 5 types of flowers
+- **Epochs**: 10
+- **Final Accuracy**:  
+  - Training Accuracy: **~98%**  
+  - Validation Accuracy: **~60%**
+
+---
+
+## 📊 Visualizations
+
+### Model Accuracy Graph
+![Model Accuracy](accuracy_graph.png)
 
 ### Sample Prediction
-![Prediction](prediction_sample.png)
+![Sample Prediction](prediction_sample.png)
+
+---
+
+## 🏗️ Model Architecture
 
 
 ## 🖼️ Sample Outputs
