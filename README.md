@@ -11,15 +11,19 @@ This project is part of my internship at **CodTech IT Solutions**. It involves d
 - Optimizer: Adam
 - Loss: Sparse Categorical Crossentropy
 - Accuracy Achieved: *(Insert your best accuracy here, e.g., 85%)*
+- ## 📊 Visualizations
+
+### Model Accuracy
+![Accuracy Graph](accuracy_graph.png)
+
+### Sample Prediction
+![Prediction](prediction_sample.png)
+
 
 ## 🖼️ Sample Outputs
 - Sample classified images
 - Accuracy vs Validation Accuracy plot
 - Prediction with actual vs predicted class
-
-## 📊 Visualizations
-![Accuracy Graph](link-to-screenshot)
-![Predicted Sample](link-to-screenshot)
 
 ## ✅ Libraries Used
 - TensorFlow
